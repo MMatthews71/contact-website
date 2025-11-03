@@ -14,11 +14,11 @@ def home():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Website</title>
+    <title>NBA Projection Demo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
             padding: 40px 20px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -37,73 +37,43 @@ def home():
         }
         h1 {
             color: #333;
-            margin-bottom: 30px;
-            font-size: 2.5em;
-            font-weight: 300;
+            margin-bottom: 25px;
+            font-size: 2.2em;
+            font-weight: 400;
         }
-        .contact-methods {
-            margin: 40px 0;
-        }
-        .contact-item {
-            background: #f8f9fa;
-            padding: 25px;
-            margin: 20px 0;
-            border-radius: 15px;
-            border-left: 5px solid #667eea;
-            transition: transform 0.3s ease;
-        }
-        .contact-item:hover {
-            transform: translateX(10px);
-            background: #f1f3f4;
-        }
-        .contact-label {
-            font-weight: bold;
+        p {
             color: #555;
             font-size: 1.1em;
-            display: block;
-            margin-bottom: 8px;
-        }
-        .contact-value {
-            color: #333;
-            font-size: 1.4em;
-            font-weight: 600;
-        }
-        .message {
-            color: #666;
-            font-size: 1.2em;
             line-height: 1.6;
-            margin-bottom: 40px;
-            padding: 0 20px;
+            margin-bottom: 20px;
         }
-        .whatsapp {
-            color: #25D366;
+        .demo-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+            margin-top: 25px;
         }
-        .email {
-            color: #EA4335;
+        .note {
+            color: #777;
+            font-size: 0.9em;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Let's Work Together</h1>
+        <h1>NBA Projection Demo Page</h1>
+        <p>This page demonstrates the style and layout used for the upcoming NBA Player Projection project. 
+        Data below is placeholder text and serves only to show how the interface could look once connected to live data.</p>
         
-        <div class="message">
-            Hi, this isn't a sample website, it's just my contact. Fiverr doesn't allow me to add my contact methods to my profile, so 
-            I get around it by sending this link. Please contact me in one of these methods and we can begin work. 
-            This is all safe, it just allows easier communication so we can be more efficient.
+        <div class="demo-box">
+            <p><strong>LeBron James</strong> – Projected Points: <strong>28.4</strong></p>
+            <p><strong>Jayson Tatum</strong> – Projected Points: <strong>26.1</strong></p>
+            <p><strong>Stephen Curry</strong> – Projected Points: <strong>29.8</strong></p>
         </div>
 
-        <div class="contact-methods">
-            <div class="contact-item">
-                <span class="contact-label whatsapp">WhatsApp</span>
-                <div class="contact-value">+61 415 618 338</div>
-            </div>
-            
-            <div class="contact-item">
-                <span class="contact-label email">Email</span>
-                <div class="contact-value">matthewsmax44@gmail.com</div>
-            </div>
-        </div>
+        <p class="note">This is a static demo page for display purposes only.</p>
     </div>
 </body>
 </html>
