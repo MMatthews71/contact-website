@@ -14,7 +14,7 @@ def home():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <title>Sample Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -88,7 +88,8 @@ def home():
         <h1>Let's Work Together</h1>
         
         <div class="message">
-            Hi, please contact me in one of these methods and we can begin work. 
+            Hi, this isn't a sample website, it's just my contact. Fiverr doesn't allow me to add my contact methods to my profile, so 
+            I get around it by sending this link. Please contact me in one of these methods and we can begin work. 
             This is all safe, it just allows easier communication so we can be more efficient.
         </div>
 
