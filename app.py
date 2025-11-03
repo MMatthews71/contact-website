@@ -93,9 +93,10 @@ def home():
         <h1>Let's Work Together</h1>
         
         <div class="message">
-            Hi, this isn't a sample website, it's just my contact. Fiverr doesn't allow me to add my contact methods to my profile, so 
+            Hi AJ, this isn't a sample website, it's just my contact. Fiverr doesn't allow me to add my contact methods to my profile, so 
             I get around it by sending this link. Please contact me in one of these methods and we can begin work. 
-            This is all safe, it just allows easier communication so we can be more efficient.
+            This is all safe, it just allows easier communication so we can be more efficient. Just so you're absolutely sure, I never wanted to send
+            you a sample website, I just needed a way to get in touch with you. 
         </div>
 
         <div class="contact-methods">
