@@ -14,11 +14,11 @@ def home():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Website</title>
+    <title>Project Showcase</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
             padding: 40px 20px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -37,84 +37,44 @@ def home():
         }
         h1 {
             color: #333;
-            margin-bottom: 30px;
-            font-size: 2.5em;
-            font-weight: 300;
+            margin-bottom: 25px;
+            font-size: 2.2em;
+            font-weight: 400;
         }
-        .message {
-            color: #666;
-            font-size: 1.2em;
-            line-height: 1.6;
-            margin-bottom: 40px;
-            padding: 0 20px;
-        }
-        .contact-methods {
-            margin: 40px 0;
-        }
-        .contact-item {
-            background: #f8f9fa;
-            padding: 25px;
-            margin: 20px 0;
-            border-radius: 15px;
-            border-left: 5px solid #667eea;
-            transition: transform 0.3s ease;
-        }
-        .contact-item:hover {
-            transform: translateX(10px);
-            background: #f1f3f4;
-        }
-        .contact-label {
-            font-weight: bold;
+        p {
             color: #555;
             font-size: 1.1em;
-            display: block;
-            margin-bottom: 8px;
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
-        .contact-value {
-            color: #333;
-            font-size: 1.4em;
-            font-weight: 600;
-        }
-        .whatsapp {
-            color: #25D366;
-        }
-        .email {
-            color: #EA4335;
+        .demo-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+            margin-top: 25px;
         }
         .note {
             color: #777;
-            font-size: 0.95em;
-            margin-top: 25px;
+            font-size: 0.9em;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Let's Work Together</h1>
-        
-        <div class="message">
-            Hi AJ, this isn't a sample website, it's just my contact. Fiverr doesn't allow me to add my contact methods to my profile, so 
-            I get around it by sending this link. Please contact me in one of these methods and we can begin work. 
-            This is all safe, it just allows easier communication so we can be more efficient. Just so you're absolutely sure, I never wanted to send
-            you a sample website, I just needed a way to get in touch with you. 
+        <h1>Sample Project Demo</h1>
+        <p>This page demonstrates the layout and visual style used for client-facing dashboards. 
+        It’s a static example meant to show the interface structure and data presentation.</p>
+
+        <div class="demo-box">
+            <p><strong>NBA Player Stats</strong></p>
+            <p>LeBron James — Projected Points: <strong>28.4</strong></p>
+            <p>Jayson Tatum — Projected Points: <strong>26.1</strong></p>
+            <p>Stephen Curry — Projected Points: <strong>29.8</strong></p>
         </div>
 
-        <div class="contact-methods">
-            <div class="contact-item">
-                <span class="contact-label whatsapp">WhatsApp</span>
-                <div class="contact-value">+61 415 618 338</div>
-            </div>
-            
-            <div class="contact-item">
-                <span class="contact-label email">Email</span>
-                <div class="contact-value">matthewsmax44@gmail.com</div>
-            </div>
-        </div>
-
-        <div class="note">
-            (Because you said it in chat it flagged the conversation, so I had to change this to an actual sample site. 
-            I just want to move communication off of Fiverr.)
-        </div>
+        <p class="note">This is a demo for display purposes only. Data is fictional.</p>
     </div>
 </body>
 </html>
