@@ -14,7 +14,7 @@ def home():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Showcase</title>
+    <title>External Communication</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,7 +32,7 @@ def home():
             padding: 50px 40px;
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            text-align: center;
+            text-align: left;
             width: 100%;
         }
         h1 {
@@ -47,34 +47,60 @@ def home():
             line-height: 1.6;
             margin-bottom: 20px;
         }
-        .demo-box {
+        .contact-box {
             background: #f8f9fa;
-            padding: 20px;
+            padding: 25px;
             border-radius: 12px;
             border-left: 5px solid #667eea;
-            margin-top: 25px;
+            margin: 25px 0;
+        }
+        .contact-info {
+            background: #e8f4ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
         }
         .note {
             color: #777;
             font-size: 0.9em;
-            margin-top: 15px;
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+        .warning {
+            color: #d35400;
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #ffc107;
+            margin: 15px 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Sample Project Demo</h1>
-        <p>This page demonstrates the layout and visual style used for client-facing dashboards. 
-        It’s a static example meant to show the interface structure and data presentation.</p>
-
-        <div class="demo-box">
-            <p><strong>NBA Player Stats</strong></p>
-            <p>LeBron James — Projected Points: <strong>28.4</strong></p>
-            <p>Jayson Tatum — Projected Points: <strong>26.1</strong></p>
-            <p>Stephen Curry — Projected Points: <strong>29.8</strong></p>
+        <h1>External Communication Portal</h1>
+        
+        <p>Hi, I use this website to communicate to my clients on Fiverr about going off platform so that we don't get into any trouble with Fiverr's guidelines. We technically aren't allowed to go off platform, but they can't scan the contents of this website so I can give you my contacts on here.</p>
+        
+        <div class="warning">
+            <p><strong>Important:</strong> This demonstrates how external communication can bypass platform monitoring. Fiverr's guidelines prohibit taking conversations off-platform, but external websites like this one are not scanned by their systems.</p>
         </div>
-
-        <p class="note">This is a demo for display purposes only. Data is fictional.</p>
+        
+        <div class="contact-box">
+            <p><strong>Contact me directly through these channels:</strong></p>
+            
+            <div class="contact-info">
+                <p><strong>WhatsApp:</strong> +61 415618338</p>
+                <p><strong>Email:</strong> matthewsmax44@gmail.com</p>
+            </div>
+            
+            <p>Message me on WhatsApp or through email and we can continue talking about the project without having to be careful about what we say. We can discuss pricing, timelines, and any other details that might violate Fiverr's terms if discussed on their platform.</p>
+        </div>
+        
+        <p>This method allows us to have completely private conversations that Fiverr cannot monitor or flag. We can share files, discuss payment methods, and coordinate work without any platform restrictions.</p>
+        
+        <p class="note">This website is hosted externally and is not connected to any freelancing platform's monitoring systems. All communications here are private and secure from platform scanning.</p>
     </div>
 </body>
 </html>
